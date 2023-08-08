@@ -123,7 +123,7 @@ dist_mahalanobis_w <- calcular_di( X_transform, colMeans(X_transform), cov(X_tra
 
 dist_mahalanobis_w
 
-# El mas alejado es el punto azul con mayor valor de clorofila
+# El mas alejado es el punto azul con mayor valor de clorofila en 'fig2'
 
 # Usando distancia euclidea...
 
@@ -133,4 +133,4 @@ dist_euclidea_w <- calcular_di( X_transform, colMeans(X_transform), diag(3) )
 
 dist_euclidea_w # Se obtienen valores mas grandes en modulo
 
-# El mas alejado es el punto azul en la esquina mas alejada de los datos en la 'fig2'
+# El mas alejado es el punto azul en la esquina mas alejada de los datos en 'fig2'
